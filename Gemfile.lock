@@ -1,0 +1,25 @@
+GEM
+  remote: https://httpbin.org/
+  specs:
+    daemons (1.2.2)
+    ethon (0.7.3)
+      ffi (>= 1.3.0)
+    eventmachine (1.0.7)
+    ffi (1.9.8)
+    rack (1.6.1)
+    roda (2.3.0)
+      rack
+    thin (1.6.3)
+      daemons (~> 1.0, >= 1.0.9)
+      eventmachine (~> 1.0)
+      rack (~> 1.0)
+    typhoeus (0.7.1)
+      ethon (>= 0.7.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  roda
+  thin
+  typhoeus
